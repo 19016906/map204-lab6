@@ -17,7 +17,9 @@ public class SooGreyhoundsDBHelper  extends SQLiteOpenHelper {
                 SooGreyhoundsDBSchema.PhotoTable.Cols.UUID + ", " +
                 SooGreyhoundsDBSchema.PhotoTable.Cols.TITLE + ", " +
                 SooGreyhoundsDBSchema.PhotoTable.Cols.URL + ", " +
-                SooGreyhoundsDBSchema.PhotoTable.Cols.NOTE +
+                SooGreyhoundsDBSchema.PhotoTable.Cols.NOTE +", " +
+
+                SooGreyhoundsDBSchema.PhotoTable.Cols.PERSON +
                 ")"
         );
     }

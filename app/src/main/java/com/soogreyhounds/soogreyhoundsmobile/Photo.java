@@ -47,5 +47,13 @@ public class Photo {
     }
 
     private String mNote;
+    private String mPerson;
+
+    public String getPerson() {
+        return mPerson;
+    }
+    public void setPerson(String person) {
+        mPerson = person;
+    }
 
 }
