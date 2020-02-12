@@ -57,6 +57,7 @@ public class PhotoDetailActivity extends AppCompatActivity {
                 public void onClick(View v) {
                     startActivityForResult(pickContact, REQUEST_CONTACT);
                 }
+                
             });
             PackageManager packageManager = getPackageManager();
             if (packageManager.resolveActivity(pickContact,
